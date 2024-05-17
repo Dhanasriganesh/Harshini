@@ -7,9 +7,9 @@ import Form from "../components/Form";
 
 const Contact = () => {
   return (
-    <div style={{backgroundImage: `url("https://www.ameeriindustries.com/wp-content/uploads/2022/04/contact-us.jpg")`}}>
+    <div>
       <Navbar />
-      <HeroImg2 headings="CONTACT." text="Let's have a chat"/>
+      <HeroImg2 heading="CONTACT." text="Let's have a chat"/>
       <Form/>
       <Footer />
     </div>

@@ -1,25 +1,25 @@
-import "./HeroImgStyles.css";
-import React from 'react';
-import IntroImg from "../assets/intro-bg.jpg";
-import {Link } from "react-router-dom";
+import "./HeroImgStyles.css"
+import React from 'react'
+import Introimg from "../assets/intro-bg.jpg"
+import {Link} from "react-router-dom"
 
-const HeroImg = () => {
+const Heroimg = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="into-img"
-            src={IntroImg} alt="IntroImg"/> 
+            <img className="intro-img"
+            src={Introimg} alt="Introimg"/>
         </div>
         <div className="content">
-            <p>HI, I'M A FREELANCER</p>
-            <h1>React Developer</h1>
-            <div>
+            <p>React Freelancer</p>
+            <p>Developer </p>
+            <div className="buttonsdiv">
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
         </div>
     </div>
-  );
-};
+  )
+}
 
-export default HeroImg;
+export default Heroimg
